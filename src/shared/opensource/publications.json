@@ -1,0 +1,11 @@
+{
+    "data": [
+      {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+        "name": "Indian Currency Recognition for Visually Impaired using Deep Learning Technical", 
+        "url": "http://ijircce.com/admin/main/storage/app/pdf/9zSMWvJdZF4lhqM62Q9CHNPUx2LmAHSoGJjW586r.pdf",
+        "createdAt": "2020-07-07",
+        "description": "In this paper we summarize the importance of camera based computing technology. It can help visually impaired people to automatically detect banknotes. A good algorithm for detecting paper money for people who are blind or visually impaired should have the following characteristics: 100% accuracy and resilience in a variety of situations in a different environment and emergence. Many of the existing currency recognition algorithms are limited to restricted circumstances. In this project we propose a deep learning approach based on high accuracy. This approach is most effective in collecting more information in the classroom and is more effective in dealing with partial closure and change of views."
+      }
+    ]
+  }
