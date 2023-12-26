@@ -7,7 +7,7 @@ const settings = {
 const seo = {
   title: "Manoj Kumar Thapa Portfolio",
   description:
-    "I am a Frontend Developer with industry experience building dynamic web applications. I have good knowledge of JavaScript. I also have experience working with React and Redux. I love designing websites.",
+    "I am a software engineer with industry experience building dynamic web applications. I have good knowledge of JavaScript. I also have experience working with React and Redux. I love designing websites.",
   og: {
     title: "Manoj Kumar Thapa Portfolio",
     type: "website",
@@ -19,11 +19,11 @@ const seo = {
 const greeting = {
   title: "Manoj Kumar Thapa",
   logo_name: "Manoj Kumar Thapa",
-  nickname: "Software Developer",
+  nickname: "Software Engineer",
   subTitle:
-    "I am a Frontend Developer with industry experience building dynamic web applications. I have good knowledge of JavaScript. I also have experience working with React and Redux. I love designing websites.",
+    "I am a software engineer with industry experience building dynamic web applications. I have good knowledge of JavaScript. I also have experience working with React and Redux. I love designing websites.",
   resumeLink:
-    "https://drive.google.com/file/d/1tBOvkcsNisJ2132b059T1L7v8FrnnAWz/view?usp=sharing",
+    "https://drive.google.com/file/d/1rNzNz7dQFRt_ssygpCQJDzbviAaEr9IX/view?usp=sharing",
   portfolio_repository: "https://github.com/Manoj-Thapa",
   githubProfile: "https://github.com/Manoj-Thapa",
 };
@@ -170,7 +170,7 @@ const competitiveSites = {
       style: {
         color: "#402F14",
       },
-      profileLink: "https://leetcode.com/Manoj-Thapa",
+      profileLink: "https://leetcode.com",
     },
   ],
 };
@@ -186,7 +186,8 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Machine Learning, Data Science and Full Stack Development.",
-        "⚡ Graduated with 9.45 CGPA",
+        "⚡ Graduated with 9.45 CGPA.",
+        "⚡ Department 3rd topper and 2nd Nepali topper during graduation.",
       ],
       website_link: "https://www.drait.edu.in",
     },
@@ -201,7 +202,7 @@ const degrees = {
         "⚡ Awarded with Mahatma Gandhi Scholarship.",
         "⚡ Achieved 75.8%.",
       ],
-      website_link: "https://www.facebook.com/manimukundacollegehssbutwal",
+      website_link: "https://www.manimukundacollege.edu.np",
     },
     {
       title: "New Horizon Institute",
@@ -281,19 +282,30 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I am a Frontend Developer with industry experience building dynamic web applications. I have good knowledge of JavaScript. I also have experience working with React and Redux. I have worked with many evolving startups as ReactJS / Frontend Developer / Software Developer.",
+    "I am a software engineer with industry experience. My expertise extends to a strong command of JavaScript, and I have successfully applied my skills to working with cutting-edge technologies such as React and Redux. Throughout my career, I have been a valuable asset to various evolving startups, contributing my talents as a ReactJS and frontend developer.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "ReactJS Developer",
+          title: "Programming and Computer Instructor",
+          company: "Birgatha Saving and Credit Co-operative Society Ltd.",
+          company_url: "#",
+          logo_path: "birgatha_logo.png",
+          duration: "May 2023 - October 2023",
+          location: "Butwal, Nepal",
+          description:
+            "As a longstanding member of the Birgatha Savings and Credit Co-operative Society Ltd, I recognized an opportunity to contribute to our community in a unique way. I have taken on the role of a programming and computer instructor. I conducted tailored workshops and interactive sessions to provide computer and programming knowledge to both society members and students within our community.",
+          color: "#09D15E",
+        },
+        {
+          title: "Software Engineer",
           company: "Accenture",
           company_url: "https://www.accenture.com",
           logo_path: "accenture_logo.png",
-          duration: "October 2021 - June 2022",
-          location: "Bangalore, Karnataka",
+          duration: "October 2021 - April 2023",
+          location: "Bangalore, India",
           description:
             "My Role is to design multiple dynamic and browser-compatible pages using HTML5, CSS3, and Javascript (React, Redux) and produced multiple visual elements of web applications by translating UI/UX design wireframes into code, producing high-quality markup using HTML5 and CSS3.",
           color: "#A100FE",
@@ -311,18 +323,18 @@ const experience = {
           duration: "April 2021 - October 2021",
           location: "Work From Home",
           description:
-            "I worked on websites and software applications designing, building, and maintaining and also conferred with teams to resolve conflicts, prioritize needs, develop content criteria, or choose solutions. I determined the client's needs by analyzing technical requirements.",
+            "During my full-stack developer internship at GUVI, I successfully undertook various responsibilities, including the creation of diverse templates such as banner design and resume design. I gained a comprehensive understanding of new ES6 features as well as concepts like callbacks, promises, async/await, and the fetch API. Additionally, I acquired proficiency in different DOM manipulation techniques and developed simple yet effective DOM templates like Pagination Design and HTML Form Design. Furthermore, I expanded my skill set to include the building of RESTful APIs and obtained a solid grasp of MongoDB. As a practical application of my knowledge, I successfully developed a web application capable of fetching market value prices from an API and storing the data in MongoDB.",
           color: "#09D15E",
         },
         {
-          title: "Web Development and Designing Intern",
+          title: "Web Development Intern",
           company: "The Sparks Foundation",
           company_url: "https://www.thesparksfoundationsingapore.org",
           logo_path: "sparksfoundation_logo.png",
           duration: "October 2020 - November 2020",
           location: "Work From Home",
           description:
-            "I have developed new user-facing features with reusable code and libraries for future use. also Ensured the technical feasibility of MongoDB, ExpressJS, and NodeJS. I have also optimized applications for maximum speed and scalability and assured that all user input is validated before submitting to the back-end.",
+            "During my web developer internship, I actively contributed to the development of new user-facing features, emphasizing the creation of reusable code and libraries for future applications. I played a crucial role in ensuring the technical feasibility of MongoDB, Express.JS, and Node.JS within the projects. Additionally, I focused on optimizing applications for maximum speed and scalability and implemented robust validation processes to assure the integrity of all user inputs before submission to the backend.",
           color: "#040404",
         },
       ],
@@ -334,7 +346,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack Web Development projects and I have also worked on Machine Learning and Deep Learning projects.",
+    "My projects make use of a vast variety of the latest technological tools. My best experience is creating full-stack web development projects, and I have also worked on machine learning and deep learning projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -350,24 +362,24 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "manojkumarthapa.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Web Development, React.JS, Node.JS, Express.JS, ML and AI.",
+      "I am available on almost every social media site. You can message me, and I will reply within 24 hours. I can help you with web development, React.JS, Node.JS, Express.JS, ML, and AI.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+      "I specialize in crafting insightful technical articles focused on programming. With a keen understanding of complex concepts, my articles aim to provide clear and valuable insights for readers in the programming community.",
     link: "https://codes4real.netlify.app",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Bangalore, Karnataka - 560056",
+    subtitle: "Butwal, Nepal",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/bzj9WLgcMKj818UX9",
+    location_map_link: "https://maps.app.goo.gl/8i7v2ikBUBCXx3wn6",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9148055498",
+    subtitle: "+977 9807519618",
   },
 };
 
